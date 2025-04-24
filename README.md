@@ -7,4 +7,4 @@
 - If I had more time I would not only have made the app show Bangkok weather and also made the weather icon element look better and added humidity and air quality
 
 ## View it live
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+https://bangkokweather.netlify.app/
