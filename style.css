@@ -1,3 +1,98 @@
 body {
-  background: blue;
+  background: #F7E9B9;
+  color: #2A5510;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 21px;
+  margin: 30px;
+}
+
+.currentWeather {
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  max-width: 360px;
+  margin: 0 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#cityWeather {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#cityWeather h2,
+#cityWeather p {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background: #F7E9B9;
+  margin: 10px 0;
+  text-align: left;
+  cursor: pointer;
+}
+
+#cityWeather p {
+  line-height: 0.8;
+  margin: 5px 0;
+  padding: 10px 20px;
+}
+
+
+.forecast {
+  margin: 0 20px;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.futureWeather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.forecast-item {
+  max-width: 360px;
+  width: 100%;
+  border-bottom: 1px dashed;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+  text-align: left;
+}
+
+.the-Weather {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  /* vertical spacing for small screens */
+}
+
+.pageContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.weatherWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .weatherWrapper {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .currentWeather,
+  .forecast {
+    flex: 1;
+    max-width: 400px;
+  }
 }
