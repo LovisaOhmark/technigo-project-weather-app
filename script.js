@@ -102,7 +102,7 @@ const ForecastBKK = () => {
 
 
         const forecastItem = `<div class="forecast-item"><p>${Forecastweekday}</p><p>${ForecastTemp}°</p></div>`;
-        futureWeather.innerHTML += forecastItem;
+        futureWeatherContainer.innerHTML += forecastItem;
 
 
       });
